@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "name": "User One",
+    "profile-emoji": "🙂"
+  },
+  {
+    "id": "1",
+    "name": "User Two",
+    "profile-emoji": "😃"
+  },
+  {
+    "id": "1",
+    "name": "User Three",
+    "profile-emoji": "😂"
+  },
+  {
+    "id": "1",
+    "name": "User Four",
+    "profile-emoji": "😌"
+  },
+  {
+    "id": "1",
+    "name": "User Five",
+    "profile-emoji": "🤓"
+  }
+]
