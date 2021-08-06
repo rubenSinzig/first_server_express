@@ -37,3 +37,14 @@ server.get("/profile/:id", (req, res) => {
     );
   }
 });
+
+server.get("/test/:id", (req, res) => {
+  if (req.params.id >= userData.length + 1 || req.params.id == 0) {
+    res.send(`please write a number between 1 and ${userData.length}`);
+  } else {
+    res.send(
+      `User : ${userData[req.params.id - 1].name} 
+        ${userData[req.params.id - 1].profileEmoji}`
+    );
+  }
+});
